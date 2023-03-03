@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- -------------------- GOOGLE MATERIAL ICONS LIBRARY -------------------- -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- ------------------------ FONT AWESOME LIBRARY ------------------------- -->
+  <script src="https://kit.fontawesome.com/c691b9866f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://kit.fontawesome.com/c691b9866f.css" crossorigin="anonymous">
+
+  <!-- --------------------- ANIMATION ON SCROLL LIBRARY --------------------- -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <!-- ------------------------ DIVICON FONTS LIBRARY ------------------------ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <!-- ----------------------- BOXICONS FONTS LIBRARY ------------------------ -->
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+
+  <!-- ----------------------------- STYLESHEET ------------------------------ -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- -------------------------- E-MAILJS SCRIPT -------------------------- -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">emailjs.init( 'pI_WT8VmMUFPIGlPb' )</script>
+
+
+  <title>Fadi Michael portfolio</title>
+</head>
+
+
+<body>
+  <!-- --------------------------------------------------------------------- -->
+  <!--                                 INTRO                                 -->
+  <!-- --------------------------------------------------------------------- -->
+  <div class="intro">
+    <img src="./assets/imgs/F-logo.png" id="F-logo" alt="F letter logo">
+    <h1 class="logo-header">
+      <span class="logo">W</span><span class="logo">e</span><span class="logo">l</span><span class="logo">c</span><span
+        class="logo">o</span><span class="logo">m</span><span class="logo">e</span>
+    </h1>
+  </div>
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                          start of HERO section                          -->
+  <!-- ----------------------------------------------------------------------- -->
+  <header>
+    <div class="wrapper">
+      <a href="./index.html"><img src="./assets/imgs/F-logo.png" alt="F letter logo"></a>
+      <nav>
+        <ul class="top-nav">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#current">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <label for="ham-check">Open menu</label>
+          <input type="checkbox" name="hamburger" id="ham-check" class="ham-input" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="hamburger-menu" id="ham">
+            <li class="ham-link">
+              <a href="#home">Home</a>
+            </li>
+            <li class="ham-link">
+              <a href="#about">About</a>
+            </li>
+            <li class="ham-link">
+              <a href="#current">Projects</a>
+            </li>
+            <li class="ham-link">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section class="welcome" id="home">
+      <!-- <div id="particles-js"></div> -->
+      <div class="wrapper">
+        <div class="welcome-name">
+          <h1>
+            <span class="name" id="messenger">Fadi Michael</span>
+            <br />
+            <span>FULL-STACK</span>
+            <br />
+            <span>Web Developer</span>
+          </h1>
+          <!-- <img src="./assets/imgs/myphoto.png" class="canvas-pic" alt="Profile pic"> -->
+        </div>
+      </div>
+    </section>
+    <span aria-hidden="true" class="bx bxs-chevron-down arrow" id="arrow-1"></span>
+    <div class="switch-light">
+      <input type="checkbox" class="light-check" id="light-dark" />
+      <label for="light-dark" class="toggle-light" title="Switch to Light Mode">
+        <span aria-hidden="true" class="fas fa-moon"></span>
+        <span class="sr-only">Switch to dark mode</span>
+        <span aria-hidden="true" class="fas fa-sun"></span>
+        <span class="sr-only">Switch to light mode</span>
+        <div aria-hidden="true" class="switch"></div>
+      </label>
+    </div>
+  </header>
+  <!-- ------------------------- end of HERO section ------------------------- -->
+
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                          start of MAIN section                          -->
+  <!-- ----------------------------------------------------------------------- -->
+  <main>
+    <div class="spacer"></div>
+    <!-- -------------------------- ABOUT ME section --------------------------- -->
+    <section class="about-me" id="about">
+      <div class="wrapper">
+        <div class="about-name">
+          <h2>About Me</h2>
+          <p>
+            << Fadi Michael&nbsp>>
+          </p>
+        </div>
+
+        <div class="about-me-container" style="overflow-x: hidden">
+          <div class="about-pic" data-aos="fade-right" data-aos-duration="1000">
+            <img src="./assets/imgs/Fadi-Michael.jpeg" alt="man standing in front of black background" />
+          </div>
+
+          <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
+            <p>
+              Hello World! I'm Fadi Michael, a Full-Stack Web Developer based
+              in Germany . From choreography on a stage to lines of code on
+              a web page, I love combining the worlds of logic and creative
+              design to make eye-catching, accessible, and user-friendly
+              websites and applications.
+            </p>
+
+            <p>
+              <span>Technology leads, society follows.</span> The move towards
+              increasing inclusivity and diversity in the industry through
+              representation is of importance to me.
+            </p>
+
+            <p>
+              I'm excited to make the leap and continue refining my skills
+              with the right company. Drop me a line and/or your favourite
+              restaurant in Düssdeldorf in the contact form
+              <a href="#contact" tabindex="0">below</a> or check me out at:
+            </p>
+
+            <ul class="socials">
+              <li>
+                <a href="https://github.com/fadimichael" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+                  title="Go to Fadi's Github">
+                  <span class="fab fa-github"></span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/meet-with-fadi-michael/" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Go to Fadi's LinkedIn">
+                  <span class="fab fa-linkedin"></span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/FadiMichael9" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+                  title="Go to Fadi's Twitter">
+                  <span class="fab fa-twitter"></span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://medium.com/" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+                  title="Go to Fadi's blog on Medium">
+                  <span class="fab fa-medium-m"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span aria-hidden="true" class="bx bxs-chevron-down arrow" id="arrow-2"></span>
+
+      </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <!-- --------------------------- SKILLS section ---------------------------- -->
+
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h2><span>Skills</span></h2>
+
+        <ul class="skills-container">
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+            <p>HTML5</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+            <p>CSS</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+            <p>JavaScript + ES6</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-bootstrap-plain" title="Bootstrap"></span>
+            <p>Bootstrap</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-webflow-original" title="Webflow"></span>
+            <p>Webflow</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-figma-plain" title="Figma"></span>
+            <p>Figma</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="bx bx-terminal" title="Terminal"></span>
+            <p>Terminal</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="material-icons">settings_ethernet</span>
+            <p>REST APIs</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-react-original" title="React"></span>
+            <p>React</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-vscode-plain" title="VScode"></span>
+            <p>VS Code</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-github-original" title="Github"></span>
+            <p>Github</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicons devicons-responsive" title="Responsive Design"></span>
+            <p>Responsive<br />Design</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="fas fa-universal-access" title="Accessibility"></span>
+            <p>Accessibility</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-nodejs-plain" title="Nodejs"></span>
+            <p>Node.js</p>
+          </li>
+
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-mongodb-plain" title="MongoDB"></span>
+            <p>MongoDB</p>
+          </li>
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-express-original" title="Express"></span>
+            <p>Express</p>
+          </li>
+          <li class="skills-title">
+            <span aria-hidden="true" class="devicon-npm-original-wordmark" title="NPM"></span>
+            <p>NPM</p>
+          </li>
+        </ul>
+      </div>
+      <span aria-hidden="true" class="bx bxs-chevron-down arrow" id="arrow-3"></span>
+    </section>
+    <div class="spacer"></div>
+
+
+
+    <!-- ---------------------- CURRENT PROJECTS section ----------------------- -->
+
+    <section class="current" id="current">
+      <div class="wrapper">
+        <div class="current-title">
+          <h2><span>Current Projects</span></h2>
+          <p>Skills grow. So will this portfolio.</p>
+        </div>
+
+        <div class="project-container" style="overflow-x: hidden">
+          <!-- GrosShop Online Grocery Store -->
+          <div class="project current-one">
+            <div class="mockup" data-aos="zoom-in-right" data-aos-duration="1500">
+              <img src="./assets/imgs/Projects_fotos/GrosShop_project.png"
+                alt="Mockup of Online Grocery Store on 15 inch Macbook Pro" />
+            </div>
+
+            <div class="project-text" data-aos="zoom-in-left" data-aos-duration="1500">
+              <h3>GrosShop</h3>
+              <p>Online Grocery Store</p>
+              <p>
+                GrosShop is a convenient app for ordering groceries. With it, you can easily and conveniently order
+                groceries directly from your smartphone without having to leave your home. No more cumbersome carrying
+                of heavy shopping bags - GrosShop makes shopping easier and more convenient.
+              </p>
+
+              <div class="made-with">
+                <h4>Made With</h4>
+                <ul class="project-icons-container">
+                  <li>
+                    <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-react-original" title="React"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-nodejs-plain" title="Nodejs"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-express-original" title="Express"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-mongodb-plain" title="MongoDB"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-links">
+                <a href="https://gros-shop-app.onrender.com/" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Live link to GrosShop">Live Site</a>
+                <span>|</span>
+                <a href="https://github.com/Mikex95/GrosShop" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="GrosShop on Github">Github</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modern. Flexible. Düsseldorf -->
+          <div class="project current-two">
+            <div class="project-text" data-aos="zoom-in-right" data-aos-duration="1500">
+              <h3>Modern. Flexible. Düsseldorf</h3>
+              <p>Turn it up and turn up.</p>
+              <p>
+                The ultra-modern event areas of the Bunker Düsseldorf are national and international hotspots for
+                business, culture and entertainment. Why? Because the choice of location is decisive for the success of
+                an event. With this in mind, the Bunker Düsseldorf is a flexible event venue in the heart of Europe.
+                No matter whether it's a comedy show, concert, sporting event, congress, trade fair, or general meeting:
+                We make it possible.
+              </p>
+
+              <div class="made-with">
+                <h4>Made With</h4>
+                <ul class="project-icons-container">
+                  <li>
+                    <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-react-original" title="React"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-nodejs-plain" title="Nodejs"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-express-original" title="Express"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-mongodb-plain" title="MongoDB"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/fadimichael" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+                  title="Live link to Got Music?">Live Site (on Progress)</a>
+                <span>|</span>
+                <a href="https://github.com/fadimichael" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+                  title="Got Music? on Github">Github</a>
+              </div>
+            </div>
+            <div class="mockup" data-aos="zoom-in-left" data-aos-duration="1500">
+              <img src="./assets/imgs/Projects_fotos/Coming_Soon_project.png"
+                alt="Mockup of Modern. Flexible. Düsseldorf on 15 inch Macbook Pro" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <span aria-hidden="true" class="bx bxs-chevron-down arrow" id="arrow-4"></span>
+    </section>
+
+    <div class="spacer"></div>
+
+
+
+    <!-- ------------------------- PROJECT SECTION ------------------------- -->
+    <section class="projects" id="projects">
+      <div class="wrapper">
+        <h2><span>Projects</span></h2>
+
+        <div class="project-container" style="overflow-x: hidden">
+
+
+          <!-- .MOV-Project -->
+          <div class="project project-one">
+            <div class="mockup" data-aos="zoom-in-right" data-aos-duration="1500">
+              <img src="./assets/imgs/Projects_fotos/mov_project.png" alt=" Mockup of dot MOV Project on 15
+                inch Macbook Pro" />
+            </div>
+
+            <div class="project-text" data-aos="zoom-in-left" data-aos-duration="1500">
+              <h3>.MOV Project</h3>
+              <p>What are you going to watch Today?</p>
+              <p>
+                On the .MOV website, all movies are displayed in a beautiful grid. By clicking on a poster, you will be
+                directed to a detailed page where you can find all the information you could wish for. Enjoy searching
+                and watching! 🎬
+              </p>
+
+              <div class="made-with">
+                <h4>Made With</h4>
+                <ul class="project-icons-container">
+                  <li>
+                    <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-react-original" title="React"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-github-original" title="Github"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-links">
+                <a href="https://639b84a8c5bc870008b963e6--dreamy-blini-f92ffa.netlify.app/" target="_blank"
+                  rel="noopener noreferrer" aria-hidden="true" title="Live link to dot MOV Project">Live Site</a>
+                <span>|</span>
+                <a href="https://github.com/DrSergej/.mov-Project" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="dot MOV Project on Github">Github</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- The Design Shop -->
+          <div class="project project-two">
+            <div class="project-text" data-aos="zoom-in-right" data-aos-duration="1500">
+              <h3>The Design Shop</h3>
+              <p>What's the plan?</p>
+              <p>
+                Carefully curated online design store. Featuring simple, beautiful, and thoughtfully designed products
+                for everyday use.No big labels but directly from designers and publishers.
+              </p>
+
+              <div class="made-with">
+                <h4>Made With</h4>
+                <ul class="project-icons-container">
+                  <li>
+                    <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-github-original" title="Github"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-links">
+                <a href="https://fadimichael.github.io/09-design-shop/" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Live link to The Design Shop">Live
+                  Site</a>
+                <span>|</span>
+                <a href="https://github.com/fadimichael/09-design-shop" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="The Design Shop on Github">Github</a>
+              </div>
+            </div>
+            <div class="mockup" data-aos="zoom-in-left" data-aos-duration="1500">
+              <img src="./assets/imgs/Projects_fotos/Design_Shop_project.png"
+                alt="Mockup of The Design Shop on 15 inch Macbook Pro" />
+            </div>
+          </div>
+
+
+          <!-- To Do MERN -->
+          <div class="project project-three">
+            <div class="mockup" data-aos="zoom-in-right" data-aos-duration="1500">
+              <img src="./assets/imgs/Projects_fotos/todo_MERN_project.png"
+                alt="Mockup of To Do App on 15 inch Macbook Pro" />
+            </div>
+            <div class="project-text" data-aos="zoom-in-left" data-aos-duration="1500">
+              <h3>To Do App</h3>
+              <p>What's your next Todo in the list?</p>
+              <p>
+                Simple full-stack to-do app with check, update and delete functions.
+              </p>
+
+              <div class="made-with">
+                <h4>Made With</h4>
+                <ul class="project-icons-container">
+                  <li>
+                    <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-react-original" title="React"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-nodejs-plain" title="Nodejs"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-express-original" title="Express"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-mongodb-plain" title="MongoDB"></span>
+                  </li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://todo-app-mern.onrender.com/" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Live link to To Do App">Live Site</a>
+                <span>|</span>
+                <a href="https://github.com/fadimichael/Todo-app-MERN" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="To Do App on Github">Github</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Wetter App -->
+          <div class="project project-four">
+            <div class="project-text" data-aos="zoom-in-right" data-aos-duration="1500">
+              <h3>Weather App</h3>
+              <p>
+                Mulit-page PSD conversion made using a client brief and design
+                files. Responsive across devices.
+              </p>
+
+              <div class="made-with">
+                <h4>Made With</h4>
+                <ul class="project-icons-container">
+                  <li>
+                    <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-github-original" title="Github"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-links">
+                <a href="https://afuadeborah.github.io/harper/index.html" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Live link to Everyday Life With Harper">Live Site</a>
+                <span>|</span>
+                <a href="https://github.com/afuadeborah/harper" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Weather App on Github">Github</a>
+              </div>
+            </div>
+            <div class="mockup" data-aos="zoom-in-left" data-aos-duration="1500">
+              <img src="./assets/imgs/Projects_fotos/Weather_project.png"
+                alt="Mockup of Weather App on 15 inch Macbook Pro" />
+            </div>
+          </div>
+
+
+          <!-- Newspaper -->
+          <div class="project project-five">
+            <div class="mockup" data-aos="zoom-in-right" data-aos-duration="1500">
+              <img src="./assets/imgs/Projects_fotos/Super_news_project.png"
+                alt="Mockup of Newspaper on 15 inch Macbook Pro" />
+            </div>
+
+            <div class="project-text" data-aos="zoom-in-left" data-aos-duration="1500">
+              <h3>Newspaper</h3>
+              <p>
+                Perfect for fictional summaries or school newspapers, a newspaper project lets students
+                get creative while recounting events.
+              </p>
+
+              <div class="made-with">
+                <h4>Made With</h4>
+                <ul class="project-icons-container">
+                  <li>
+                    <span aria-hidden="true" class="devicon-html5-plain" title="HTML5"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-css3-plain" title="CSS"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-javascript-plain" title="JavaScript & ES6"></span>
+                  </li>
+                  <li>
+                    <span aria-hidden="true" class="devicon-github-original" title="Github"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-links">
+                <a href="https://fadimichael.github.io/08-newspaper/" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Live link to Newspaper">Live Site</a>
+                <span>|</span>
+                <a href="https://github.com/fadimichael/08-newspaper" target="_blank" rel="noopener noreferrer"
+                  aria-hidden="true" title="Newspaper on Github">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <!-- ----------------------- CONTACT ME SECTION ------------------------ -->
+    <section class="contact" id="contact">
+      <div class="wrapper">
+        <h2><span>Contact Me</span></h2>
+        <div class="form-container">
+          <form action="" method="POST" id="form" enctype="multipart/form-data" name="contact-form">
+            <i class="fas fa-paper-plane"></i>
+            <label for="name">Enter name</label>
+            <input type="text" name="from_name" id="name" placeholder="Your name" required />
+            <span id="name-error"></span>
+
+            <label for="email">Enter email</label>
+            <input type="email" name="email_id" id="email" placeholder="Your email" required />
+            <span id="email-error"></span>
+
+            <label for="message">Write a message</label>
+            <textarea name="message" id="message" placeholder="HOW may i help you?" rows="6" cols="50" wrap="hard"
+              required>
+              </textarea>
+            <span id="message-error"></span>
+
+            <button type="submit" id="button" name="submit">Get in touch</button>
+          </form>
+          <div class="form-text">
+            <p>
+              If you have any questions about me or my projects,please feel free to do that
+            </p>
+            <br />
+            <p>
+              I'm available to grab a coffee and chat! Drop a comment,
+              question, or concern, and thanks for stopping
+              by!
+            </p>
+            <br />
+            <p>
+              Straight shot to my inbox: <br>
+              <a href="mailto:fadi.michael@gmx.de?subject=Getting in Touch with Fadi Michael" target="_blank"
+                rel="noopener noreferrer" aria-hidden="true" title="Email Fadi Michael directly">fadi.michael@gmx.de</a>
+            </p>
+          </div>
+        </div>
+        <ul class="socials">
+          <li>
+            <a href="https://github.com/fadimichael" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+              title="Go to Fadi's Github">
+              <span class="fab fa-github"></span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/meet-with-fadi-michael/" target="_blank" rel="noopener noreferrer"
+              aria-hidden="true" title="Go to Fadi's LinkedIn">
+              <span class="fab fa-linkedin"></span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/FadiMichael9" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+              title="Go to Fadi's Twitter">
+              <span class="fab fa-twitter"></span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://medium.com/" target="_blank" rel="noopener noreferrer" aria-hidden="true"
+              title="Go to Fadi's blog on Medium">
+              <span class="fab fa-medium-m"></span>
+            </a>
+          </li>
+        </ul>
+        <a class="back-to-top" id="top">Back to Top</a>
+      </div>
+    </section>
+
+    <div class="spacer"></div>
+  </main>
+  <!-- ------------------------- end of MAIN section ------------------------- -->
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                             start of FOOTER                             -->
+  <!-- ----------------------------------------------------------------------- -->
+
+  <footer>
+    <p>Designed By Fadi Michael</p>
+    <p>Copyright &copy; <span id="current-year"></span></p>
+  </footer>
+
+  <!-- ---------------------------- end of FOOTER ---------------------------- -->
+
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                             SCRIPT SCOURCES                             -->
+  <!-- ----------------------------------------------------------------------- -->
+
+
+
+  <!-- ---------------- JQUERY FOR SCRUMBLE-LETTERS PACKAGE ---------------- -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- --------------------- Animation on scroll Library --------------------- -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script src="./assets/js/particles.js"></script> -->
+  <script src="./assets/js/scrumble-Letters.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
