@@ -423,6 +423,7 @@ body.light .fa-moon {
 
 .about-me {
   min-height: 100vh;
+  width: 100%;
   padding-top: 20px;
 }
 
@@ -806,7 +807,13 @@ footer p {
   gap: 20%;
 }
 
+/* .about-socials {
+  width: 10%;
+} */
+
+
 .socials li span {
+  margin: 1rem;
   font-size: 4rem;
 }
 
