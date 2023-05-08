@@ -807,13 +807,8 @@ footer p {
   gap: 20%;
 }
 
-/* .about-socials {
-  width: 10%;
-} */
-
-
 .socials li span {
-  margin: 1rem;
+  margin: 2rem;
   font-size: 4rem;
 }
 
